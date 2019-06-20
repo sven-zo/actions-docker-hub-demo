@@ -1,0 +1,18 @@
+{
+  "name": "micro-container-example",
+  "version": "1.0.0",
+  "description": "A small example container showcasing the micro library in Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro -l tcp://0.0.0.0:${PORT-3000}",
+    "dev": "micro-dev"
+  },
+  "author": "Sven Hoffmann <svenzo@outlook.com>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "micro": "^9.3.4"
+  },
+  "devDependencies": {
+    "micro-dev": "^3.0.0"
+  }
+}
